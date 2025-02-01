@@ -57,6 +57,22 @@ Typical Project Structure
 │   │   ├── constants.js            # Constants (API endpoints, roles)
 │   │   └── logger.js               # Logging utility
 │   │
+│   ├── /helpers                    # Custom helper functions
+│   │   ├── authHelper.js           # Authentication-related helpers (token parsing, encryption)
+│   │   ├── budgetHelper.js         # Budget calculations and logic
+│   │   ├── errorHelper.js          # Common error handling
+│   │   ├── stringHelper.js         # String manipulation helpers
+│   │   ├── mathHelper.js           # Math operations (percentages, rounding)
+│   │   ├── dateHelper.js           # Date formatting and calculations
+│   │   ├── fileHelper.js           # File upload/download helpers
+│   │   └── responseHelper.js       # Standardized API responses
+│   │
+│   ├── /utils
+│   │   ├── format.js               # Currency, date formatting
+│   │   ├── math.js                 # Number rounding, percentage calculations
+│   │   ├── string.js               # String manipulation functions
+│   │   ├── validation.js           # Data validation functions
+│   │
 │   ├── /middleware                 # Middleware (Auth, API, Logging)
 │   │   ├── authMiddleware.js       # Protects routes based on auth
 │   │   ├── errorMiddleware.js      # Handles API errors
