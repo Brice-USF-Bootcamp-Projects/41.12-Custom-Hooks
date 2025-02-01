@@ -1,6 +1,8 @@
+'use client'
+
 import React, { useState } from "react";
 import pokemonList from "./pokemonList";
-import { choice, formatPokemon } from "@/app/helpers/helpers";
+import { choice, formatPokemon } from "./helpers";
 
 /* Select element to choose from common pokemon. */
 function PokemonSelect({ add, pokemon = pokemonList }) {

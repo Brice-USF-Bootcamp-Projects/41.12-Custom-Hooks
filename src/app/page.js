@@ -1,6 +1,6 @@
 // src/app/page.js
 
-import CardTable from "./components/CardTable/CardTable";
+import CardTable from "./CardTable";
 
 export default function HomePage() {
   return (
