@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import pokemonList from "./pokemonList";
-import { choice, formatPokemon } from "./helpers";
+import { choice, formatPokemon } from "@/app/helpers/helpers";
 
 /* Select element to choose from common pokemon. */
 function PokemonSelect({ add, pokemon = pokemonList }) {
@@ -22,7 +22,7 @@ function PokemonSelect({ add, pokemon = pokemonList }) {
         Catch one!
       </button>
       <button onClick={() => add(formatPokemon, choice(pokemon))}>
-        I'm feeling lucky
+        I&apos;m feeling lucky
       </button>
     </div>
   );

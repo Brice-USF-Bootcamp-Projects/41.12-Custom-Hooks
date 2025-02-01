@@ -1,7 +1,7 @@
 import React from "react";
 import PlayingCardList from "./PlayingCardList";
-import PokeDex from "./PokeDex";
-import "./CardTable.css";
+import PokeDex from "@/Pokemon/PokeDex";
+
 
 /* Main component. Renders card lists for
  * playing cards and pokemon. */
